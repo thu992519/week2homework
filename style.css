@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    margin: 0 auto;
+   
+}
+.main{
+    width: 1921px;
+}
+.nav {
+    width: 1296px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: baseline;
+    padding-top: 40px;
+    
+}
+.nav li{
+    width: 306px;
+    color: #D1D1D1;
+    font-family: Bruno Ace SC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.bgblack{
+    background: #000;
+}
+.bgw{
+    background: #ffffff;
+    color:black;
+    border-radius: 32px;
+    padding: 12px 24px;
+}
+.nav li:nth-child(4){
+    text-align: right;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    /* width: 100%; */
+    padding: 24px ;
+}
+.metxt{
+    width: 636px;
+}
+.bannertext{
+    text-align: left;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.mewill{
+    color: #00FFA3;
+    text-align: right;
+    font-family: Bruno Ace SC;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.introduction{
+    background-image: url(img/background-img.png);
+    width: 1920px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    color: #FFF;
+    font-family: Bruno Ace SC;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    justify-content: center;
+    align-items: center;
+}
+.inttxt{
+    width: 526px;
+}
+.inttxt ul li:nth-child(2){
+    margin-top: 32px;
+    margin-bottom: 36px;
+}
+.initimg{
+    width: 600px;   
+    margin-left: 24px;
+}    
+.intimg img:nth-child(2){
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.aboutme{
+    width: 1296px;
+
+}
+.aboutmetol{
+    
+}
+.aboutmeL{
+    width: 636px;
+    padding-top:160px;
+    padding-bottom: 160px;
+}
+.aboutmeL ul{
+    width: 100%;
+}
+.card{
+    width: 274px;
+    padding: 16px;
+}
+.aboutmeL li{
+    width: 274px;
+}
+.aboutmeR{
+    width: 526px;
+    padding-left: 134px;
+}
+.contme{
+    width: 1920px;
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contmebox{
+    width: 1269px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.mr113{
+    margin-right: 113px;
+}
+.image{
+  object-fit: cover;
+  border-radius: 40px;
+  width: 162px;
+  height: 162px;
+  margin-left: 20px;
+}
+
+.image:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+  border-radius: 40px;
+}
+
+.contme .container p{
+    color: #FFF;
+    font-family: Bruno Ace SC;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 96px */
+}
+.project{
+    width: 1920px;
+    background: #fff;
+
+}
+.projectbox{
+    width: 1296px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.projectbox p{
+    width: 746px;
+    margin-left: auto;
+    color: #000;
+    font-family: Bruno Ace SC;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 96px */
+}
+.frameRtop{
+    margin-bottom: 16px;
+}
+.frametxt p{
+    width: 636px;
+    color: #15161D;
+    font-family: Bruno Ace SC;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.frametxt a{
+    display: flex;
+    width: 137px;
+    padding: 12px 24px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+    background: #000;
+   
+}
+.framea p{
+    color: #fff;
+}
+
+.frame img{
+    margin-right: 24px;
+}
+.align-base{
+ align-self: flex-end;
+}
+.mr6{
+    margin:24px;
+
+}
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.justifycenter{
+    justify-content: center;
+}
+.self-end{
+    align-self: flex-end;
+}
+.ml-1{
+    margin-left: 1px;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.self-start{
+    align-self: flex-start;
+}
+.mb6{
+    margin-bottom:24px ;
+}
