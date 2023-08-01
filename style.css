@@ -9,14 +9,19 @@ img{
     vertical-align: middle;
 }
 .container{
+    width: 1296px;
     margin: 0 auto;
    
 }
-.main{
-    width: 1921px;
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+a:hover{
+    color:red;
 }
 .nav {
-    width: 1296px;
+  
     display: flex;
     justify-content: space-between ;
     align-items: baseline;
@@ -49,7 +54,6 @@ img{
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    /* width: 100%; */
     padding: 24px ;
 }
 .metxt{
@@ -73,7 +77,6 @@ img{
 }
 .introduction{
     background-image: url(img/background-img.png);
-    width: 1920px;
     padding-top: 160px;
     padding-bottom: 160px;
     color: #FFF;
@@ -138,7 +141,14 @@ img{
     padding-top: 96px;
     padding-bottom: 96px;
 }
-
+.copyright{
+    /* display: block; */
+    text-align: center;
+    color: #FFF;
+}
+.py-40{
+    padding:40px 0;
+}
 .mr113{
     margin-right: 113px;
 }
